@@ -36,7 +36,7 @@ Once ArgoCD is set up, you can start deploying your applications to your Kuberne
    apiVersion: argoproj.io/v1alpha1
    kind: Application
    metadata:
-     name: my-app
+     name: demo
      namespace: argocd
    spec:
      destination:
@@ -59,7 +59,12 @@ Once ArgoCD is set up, you can start deploying your applications to your Kuberne
    kubectl apply -f argocd-app.yaml
    ```
 
-4. Once the application is deployed, any changes made to the Git repository will automatically be synced with the deployed application. This means that any changes made to the Kubernetes manifests in the Git repository will automatically be applied to the deployed application.
+4. Once the application is deployed, any changes made to the Git repository will automatically be synced with the deployed application. This means that any changes made to the Kubernetes manifests in the Git repository will automatically be applied to the deployed application
+
+
+## Demo on using UI ArgoCD
+
+![alt text](argocd-demo.gif)
 
 ## Conclusion
 
