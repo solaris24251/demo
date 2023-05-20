@@ -65,6 +65,7 @@ Once ArgoCD is set up, you can start deploying your applications to your Kuberne
 ## Demo on using UI ArgoCD
 
 ![alt text](argocd-demo.gif)
+![alt text](argocd-demo2.gif)
 
 ## Conclusion
 
